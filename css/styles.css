@@ -1,40 +1,3 @@
-.top-Cont {
-  background-color: #E0EBE8;
-  padding: 100px 100px 0;
-}
-
-.middle-cont {
-  padding-top: 100px;
-}
-
-.bottom-cont {
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
-}
-
-.mc-profile {
-  margin: auto;
-  width: 30%;
-}
-
-.pp-img {
-  width: 35%;
-}
-
-.skill-img {
-  width: 20%;
-}
-
-.sk-img-odd {
-  float: left;
-  margin-right: 30px;
-}
-
-.sk-img-even {
-  float: right;
-  margin-left: 30px;
-}
-
 body {
   color: #40514E;
   margin: 0;
@@ -42,106 +5,151 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-h1 {
-  color: #66BFBF;
-  font-family: 'Great Vibes', cursive;
-  font-size: 5.625rem;
-  font-weight: normal;
-  margin: 50px auto 0;
-}
-
-h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
-  font-size:1.5rem;
-  font-weight: normal;
-  margin-bottom: 2em;
-}
-
-h3, a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-}
-
 p {
   line-height: 2;
 }
 
-.skill-head {
-  line-height: 2;
+
+/* Top container css starts*/
+#title {
+  background: url("../images/blur-bulb.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000000;
+  color: #FFF;
+  height: 40rem;
 }
 
-.skill-heading {
+.container-fluid {
+  padding: 2% 4%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+} 
+
+.nav-link {
+  font-size: 0.9rem;
+  font-family:'Montserrat-Light', sans-serif;
+}
+
+.dd-home-self-desc {
+  display: block;
+  float: right;
+  margin: 10rem;
+}
+
+.dd-home-self-desc h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 5.625rem;
+  font-weight: normal;
+}
+  
+/* Top container css ends */
+
+/* Self information section css starts */
+.dd-even-section {
+  background-color: #EDEEEF;
+  padding: 5rem 0;
+}
+
+.dd-home-self-mc-profile {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+}
+
+.dd-home-self-mc-profile-img {
+  margin-bottom: 10%;
+  width: 30%;
+}
+
+/* Self information section css ends */
+
+/* Skill section css starts */
+
+.dd-home-sa-skill-hd {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2em;
-  margin-top: 50px;
+  margin: 6% 0 3% 0;
 }
 
-.top-Cloud {
-  position: absolute;
-  left: 950px;
-  top: 225px;
-}
-
-.bottom-Cloud {
-  position: absolute;
-}
-
-.skill-row {
-  margin: 100px auto;
+.dd-home-sa-skill-row {
+  display: inline-block;
+  margin: 2% 0;
+  line-height: 2;
   text-align: left;
   width: 50%;
 }
 
-.cm-req-desc {
+.dd-home-sa-skill-img {
+  width: 15%;
+}
+
+.dd-home-sa-skill-img-odd {
+  float: left;
+  margin-right: 2rem;
+}
+
+.dd-home-sa-skill-img-even {
+  float: right;
+  margin-left: 2rem;
+}
+
+.dd-home-sa-skill-head {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold
+}
+
+/* Skill section css ends */
+
+/* Contact me section css starts */
+
+.dd-home-cm-hd {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 4%;
+}
+
+.dd-home-cm-req {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.dd-home-cm-req-desc {
   margin: auto;
   line-height: 2;
   width: 50%;
 }
 
-.hr-separator {
-  border : dotted #EAF6F6 6px;
-  border-bottom: none;
-  margin: 100px auto;
-  width: 4%;
+.dd-home-cm-btn {
+  margin: 3% 0;
 }
 
-.cm-btn {
-  background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 15px;
-  display: inline-block;
-  margin: 50px auto;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+/* Contact me section css ends */
+
+/* Footer section css starts */
+
+#footer {
+  background-color: #26262A;
+  color: #FFF;
+  padding: 5% 0;
 }
 
-.cm-btn:hover {
-  background: #30E3CB;
-  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
-  text-decoration: none;
+.dd-home-ft-cont {
+  margin: auto;
+  width: 30%;
 }
 
-.footer-link {
-  margin : 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #EAF6F6;
-}
-
-.ft-name-cc {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
+.dd-home-ft-icon-cont .fab {
+  font-size: 1.5rem;
+  margin: 5% 2%;
 }
