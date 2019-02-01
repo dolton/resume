@@ -1,14 +1,24 @@
 body {
-  color: #40514E;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0em;
+  line-height: 1.8em;
+  color: rgba(26,26,26,0.80);
 }
 
 p {
   line-height: 2;
 }
 
+.btn {
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: 10%;
+  padding: 15px 30px;
+}
 
 /* Top container css starts*/
 #title {
@@ -35,16 +45,20 @@ p {
   font-family:'Montserrat-Light', sans-serif;
 }
 
-.dd-home-self-desc {
+.dd-titlesec-desc-cont {
   display: block;
   float: right;
-  margin: 10rem;
+  margin: 10rem 10rem 0;
 }
 
-.dd-home-self-desc h2 {
+.dd-titlesec-desc-myname {
   font-family: 'Great Vibes', cursive;
   font-size: 5.625rem;
   font-weight: normal;
+}
+
+.dd-titlesec-desc-myrole {
+  letter-spacing: 3px;
 }
   
 /* Top container css ends */
@@ -71,8 +85,6 @@ p {
 /* Skill section css starts */
 
 .dd-home-sa-skill-hd {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
   font-size: 2em;
   margin: 6% 0 3% 0;
 }
@@ -100,8 +112,6 @@ p {
 }
 
 .dd-home-sa-skill-head {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.4em;
   font-weight: bold
 }
@@ -111,14 +121,11 @@ p {
 /* Contact me section css starts */
 
 .dd-home-cm-hd {
-  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 4%;
 }
 
 .dd-home-cm-req {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.4em;
   font-weight: bold;
   margin-bottom: 2%;
@@ -127,7 +134,7 @@ p {
 .dd-home-cm-req-desc {
   margin: auto;
   line-height: 2;
-  width: 50%;
+  width: 70%;
 }
 
 .dd-home-cm-btn {
@@ -152,4 +159,28 @@ p {
 .dd-home-ft-icon-cont .fab {
   font-size: 1.5rem;
   margin: 5% 2%;
+}
+
+/* Footer section css ends */
+
+/* Resume page highlights section css starts */
+
+.container-fluid .row {
+  text-align: left;
+}
+
+.dd-res-work-cont label.card-title {
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: .1em;
+  line-height: 1.6em;
+}
+
+.dd-res-work-card-data {
+  font-size: 14px;
+}
+
+.dd-res-work-card-bd-data-row {
+  margin-bottom: 5%;
 }
