@@ -71,13 +71,13 @@ p {
 
 .dd-home-self-mc-profile {
   margin: auto;
-  width: 30%;
+  width: 60%;
   text-align: center;
 }
 
 .dd-home-self-mc-profile-img {
   margin-bottom: 10%;
-  width: 30%;
+  width: 15%;
 }
 
 /* Self information section css ends */
@@ -163,7 +163,7 @@ p {
 
 /* Footer section css ends */
 
-/* Resume page highlights section css starts */
+/* Resume page css starts */
 
 .container-fluid .row {
   text-align: left;
@@ -175,6 +175,7 @@ p {
   font-size: 14px;
   letter-spacing: .1em;
   line-height: 1.6em;
+  text-transform: uppercase;
 }
 
 .dd-res-work-card-data {
@@ -183,4 +184,33 @@ p {
 
 .dd-res-work-card-bd-data-row {
   margin-bottom: 5%;
+}
+
+/* Resume page css ends */
+
+/* Blog page css starts */
+
+.dd-blog-quote-icon {
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+
+.dd-blog-tiles-cont {
+  padding: 5%;
+}
+
+.dd-blog-tiles-img {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  height: 15rem;
+}
+
+.dd-blog-tiles-img-01 {
+  background: url("../images/blog/business-chart.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-02 {
+  background: url("../images/blog/ballpen.jpg") no-repeat;
+  background-size: cover;
 }
