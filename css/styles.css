@@ -36,6 +36,16 @@ p {
   padding: 2% 4%;
 }
 
+.navbar {
+  padding-right: 10%;
+}
+
+.navbar li {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  margin: 0 1%;
+}
+
 .navbar-brand {
   font-size: 3rem;
 } 
@@ -48,7 +58,7 @@ p {
 .dd-titlesec-desc-cont {
   display: block;
   float: right;
-  margin: 10rem 10rem 0;
+  margin: 10rem 5rem 0;
 }
 
 .dd-titlesec-desc-myname {
