@@ -234,3 +234,59 @@ p {
   background: url("../images/blog/reading.jpg") no-repeat;
   background-size: cover;
 }
+
+/* Blog page css ends */
+
+/* About me page css starts */
+
+.dd-about-me-cont {
+  padding-top: 3%;
+}
+
+.dd-about-me-cont .card {
+  border: none;
+}
+
+.dd-about-me-card-body-text {
+  padding-top: 0;
+}
+
+.dd-aboutme-tiles-img-traveller {
+  background: url("../images/about/traveller.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-phil {
+  background: url("../images/about/phil.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-sw {
+  background: url("../images/about/socialwork.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-st {
+  background: url("../images/about/finance.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-ath {
+  background: url("../images/about/athlete.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-mn {
+  background: url("../images/about/trekking.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-al {
+  background: url("../images/about/animal.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-aboutme-tiles-img-ms {
+  background: url("../images/about/piano.jpg") no-repeat;
+  background-size: cover;
+}
