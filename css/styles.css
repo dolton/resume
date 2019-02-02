@@ -214,3 +214,23 @@ p {
   background: url("../images/blog/ballpen.jpg") no-repeat;
   background-size: cover;
 }
+
+.dd-blog-tiles-img-03 {
+  background: url("../images/blog/road.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-04 {
+  background: url("../images/blog/writing.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-05 {
+  background: url("../images/blog/earth.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-blog-tiles-img-06 {
+  background: url("../images/blog/reading.jpg") no-repeat;
+  background-size: cover;
+}
