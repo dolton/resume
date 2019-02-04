@@ -9,6 +9,7 @@ body {
 
 p {
   line-height: 2;
+  text-align: justify;
 }
 
 .btn {
@@ -18,6 +19,15 @@ p {
   letter-spacing: 3px;
   margin-top: 10%;
   padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+label {
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: .1em;
+  line-height: 1.6em;
   text-transform: uppercase;
 }
 
@@ -65,11 +75,38 @@ p {
 .dd-titlesec-desc-myname {
   font-family: 'Great Vibes', cursive;
   font-size: 5.625rem;
-  font-weight: normal;
 }
 
 .dd-titlesec-desc-myrole {
   letter-spacing: 3px;
+}
+
+@media(max-width:1028px){
+
+  .dd-titlesec-desc-cont {
+    margin: 7rem 4rem 0;
+  }
+
+  .dd-titlesec-desc-myname {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+  }
+
+  .dd-titlesec-desc-myrole {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    padding: 10px 20px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
 }
   
 /* Top container css ends */
@@ -87,8 +124,13 @@ p {
 }
 
 .dd-home-self-mc-profile-img {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   width: 15%;
+}
+
+.dd-home-self-mc-profile p{
+  margin-top: 3%;
+  text-align: center;
 }
 
 /* Self information section css ends */
@@ -96,7 +138,6 @@ p {
 /* Skill section css starts */
 
 .dd-home-sa-skill-hd {
-  font-size: 2em;
   margin: 6% 0 3% 0;
 }
 
@@ -122,9 +163,18 @@ p {
   margin-left: 2rem;
 }
 
-.dd-home-sa-skill-head {
-  font-size: 1.4em;
-  font-weight: bold
+@media(max-width:1028px){
+  
+  .dd-home-sa-skill-row {
+    width: 60%;
+  }
+  
+  .dd-home-sa-skill-img {
+    display: block;
+    float: none;
+    margin: auto;
+    width: 25%;
+  }
 }
 
 /* Skill section css ends */
@@ -132,19 +182,16 @@ p {
 /* Contact me section css starts */
 
 .dd-home-cm-hd {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .dd-home-cm-req {
-  font-size: 1.4em;
-  font-weight: bold;
   margin-bottom: 2%;
 }
 
 .dd-home-cm-req-desc {
   margin: auto;
-  line-height: 2;
+  text-align: center;
   width: 70%;
 }
 
@@ -159,17 +206,36 @@ p {
 #footer {
   background-color: #26262A;
   color: #FFF;
-  padding: 5% 0;
+  padding: 5% 40%;
 }
 
 .dd-home-ft-cont {
   margin: auto;
-  width: 30%;
 }
 
 .dd-home-ft-icon-cont .fab {
+  color: #FFF;
   font-size: 1.5rem;
   margin: 5% 2%;
+}
+
+.dd-home-ft-icon-cont .fab:hover{
+  color: #007bff;
+}
+
+.dd-home-ft-cont label {
+  color: #FFF;
+}
+
+@media(max-width:1028px){
+
+  #footer {
+    padding: 5% 25%;
+  }
+
+  .dd-home-ft-icon-cont .fab {
+    font-size: 1.2rem;
+  }
 }
 
 /* Footer section css ends */
@@ -178,15 +244,6 @@ p {
 
 .container-fluid .row {
   text-align: left;
-}
-
-.dd-res-work-cont label.card-title, .dd-contactme-connect-cont .card-title {
-  color: #1a1a1a;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: .1em;
-  line-height: 1.6em;
-  text-transform: uppercase;
 }
 
 .dd-res-work-card-data {
@@ -320,7 +377,8 @@ p {
   margin-bottom: 2%;
 }
 
-.dd-contactme-connect-cont h2.card-title {
+.dd-contactme-connect-title {
+  display: block;
   font-size: 20px;
 }
 
@@ -328,4 +386,10 @@ p {
   margin: 3% 0;
 }
 
+/* Contact me page css ends */
 
+/* Portfolio page css starts */
+
+.dd-port-infosec-icon {
+  font-size: 150%;
+}
