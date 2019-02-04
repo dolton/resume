@@ -18,6 +18,7 @@ p {
   letter-spacing: 3px;
   margin-top: 10%;
   padding: 15px 30px;
+  text-transform: uppercase;
 }
 
 /* Top container css starts*/
@@ -179,7 +180,7 @@ p {
   text-align: left;
 }
 
-.dd-res-work-cont label.card-title {
+.dd-res-work-cont label.card-title, .dd-contactme-connect-cont .card-title {
   color: #1a1a1a;
   font-weight: 600;
   font-size: 14px;
@@ -300,3 +301,31 @@ p {
   background: url("../images/about/piano.jpg") no-repeat;
   background-size: cover;
 }
+
+/* About me page css ends */
+
+/* Contact me page css starts */
+
+.dd-contactme-tiles-cont {
+  padding: 5%;
+}
+
+.dd-contactme-card-icon{
+  font-size: 3rem;
+  margin-top: 8%;
+}
+
+.dd-contactme-connect-cont .fas {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.dd-contactme-connect-cont h2.card-title {
+  font-size: 20px;
+}
+
+.dd-contactme-connect-cont .row {
+  margin: 3% 0;
+}
+
+
