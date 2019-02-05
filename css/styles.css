@@ -141,12 +141,23 @@ label {
   font-size: 4rem;
 }
 
+.dd-home-skillsec-icon {
+  font-size: 3rem;
+  margin-top: 50%;
+}
+
 .dd-home-skill-cont .row {
   margin: 2% 0;
 }
 
 .dd-web-card-noborder {
   border: none;
+}
+
+@media(max-width:1028px){
+  .dd-home-skillsec-icon {
+    margin-top: 10%;
+  }
 }
 
 /* Skill section css ends */
