@@ -361,3 +361,15 @@ label {
 .dd-port-infosec-icon {
   font-size: 150%;
 }
+
+.dd-port-cont .dd-aboutme-tiles-img-sw:hover {
+  cursor: pointer;
+}
+
+.dd-port-prjview-btn {
+  display: none;
+}
+
+.dd-port-cont .btn {
+  margin: 0;
+}
