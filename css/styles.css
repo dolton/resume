@@ -250,6 +250,10 @@ label {
   padding: 5%;
 }
 
+.dd-blog-tiles-cont .card {
+  margin-bottom: 8%;
+}
+
 .dd-blog-tiles-img {
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
