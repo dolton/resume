@@ -373,14 +373,54 @@ label {
   font-size: 150%;
 }
 
-.dd-port-cont .dd-aboutme-tiles-img-sw:hover {
-  cursor: pointer;
-}
-
 .dd-port-prjview-btn {
   display: none;
+  margin-top: 25%;
 }
 
-.dd-port-cont .btn {
+.dd-web-first-cont {
+  margin-top: 3%;
+}
+
+.dd-port-cont .btn-outline-dark {
   margin: 0;
+}
+
+.dd-port-tiles-img-sk {
+  background: url("../images/portfolio/sk-img.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-tiles-img-se {
+  background: url("../images/portfolio/se-img.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-tiles-img-perf {
+  background: url("../images/portfolio/perf.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-tiles-img-infra {
+  background: url("../images/portfolio/server.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-tiles-img-forkify {
+  background: url("../images/portfolio/forkify.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-tiles-img-code {
+  background: url("../images/portfolio/code.jpg") no-repeat;
+  background-size: cover;
+}
+
+.dd-port-cont .dd-blog-tiles-img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.dd-port-cont .dd-blog-tiles-img:hover .dd-port-prjview-btn {
+  display: inline-block;
 }
